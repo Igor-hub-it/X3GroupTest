@@ -101,21 +101,22 @@ main {
 .about {
   height: auto;
   width: 100%;
+  margin: auto;
 }
 
 .about_title {
   height: auto;
-  width: 70%;
+  width: 75%;
   padding: 50 0 20 0;
   display: flex;
   align-items: center;
-  gap: 60px;
+  gap: 30px;
   margin: auto;
   display: flex;
 }
 
 .about_title_line {
-  width: 120px;
+  width: 100px;
   height: 1px;
   display: flex;
   align-items: center;
@@ -132,13 +133,12 @@ main {
 }
 
 .about_navbar {
-  width: 50%;
+  width: 75%;
   height: 14px;
   margin: auto;
-  padding: 30px 0;
+  padding: 30px 0 30px 130px;
   display: flex;
-
-  gap: 60px;
+  gap: 20px;
   font-size: 14px;
   font-weight: 300;
   font-family: 'Commissioner';
@@ -148,31 +148,35 @@ main {
   cursor: pointer;
 }
 
-.greetings {
-  width: 70%;
+.greetings_part1 {
+  width: 75%;
   margin: auto;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: 70% 30%;
 }
 
-.greetings_content {
+.greetings_part1_content {
   display: flex;
   flex-direction: column;
   gap: 40px;
-  padding: 100px 80px;
+  padding: 50px 0 0 130px;
 }
 
-.greetings_title {
-  font-size: 22px;
+.greetings_part1_title {
+  font-size: 20px;
   font-family: 'Commissioner';
 }
 
-.greetings_text {
+.greetings_part1_text {
+  padding-right: 80px;
+  font-size: 14px;
   font-family: 'Commissioner';
+  line-height: 25px;
+  font-weight: 300;
 }
 
 .greetings_registration {
-  padding: 90px;
+  padding: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -183,18 +187,146 @@ main {
   font-size: 14px;
   font-weight: 500;
   font-family: 'Commissioner';
+  text-align: start;
 }
 
 .greetings_registration_date {
   font-size: 80px;
   font-weight: 500;
   font-family: 'Commissioner';
+  text-align: start;
 }
 
 .greetings_registration_text {
   font-size: 18px;
   font-weight: 500;
   font-family: 'Commissioner';
+  text-align: start;
+}
+
+.greetings_part2 {
+  width: 75%;
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 35% 30%;
+}
+
+.greetings_part2_img {
+  width: 100%;
+  height: 100%;
+}
+
+.greetings_part2_text {
+  width: 100%;
+  padding: 20px 0;
+  margin: 0 20px;
+  font-family: 'Commissioner';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.greetings_part3 {
+  width: 75%;
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 35% 35% 20%;
+}
+
+.greetings_part3_img {
+  width: 100%;
+  height: 100%;
+}
+
+.greetings_part3_text {
+  width: 100%;
+  padding: 15px 50px;
+  font-family: 'Commissioner';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.greetings_part4 {
+  width: 75%;
+  height: auto;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 35% 30%;
+}
+
+.greetings_part4_img {
+  width: 100%;
+  height: 100%;
+}
+
+.greetings_part4_text {
+  width: 100%;
+  padding: 40px 0;
+  margin: 0 20px;
+  font-family: 'Commissioner';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 25px;
+}
+
+.greetings_part5 {
+  width: 100%;
+  background: #F2F2F2;
+}
+
+.greetings_part5_content {
+  width: 75%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 35% 35% 30%;
+}
+
+.greetings_part5_textbox{
+  width: 100%;
+  height: 65%;
+  background: #51BAE5;
+  color: #fff;
+}
+
+.greetings_part5_text {
+  margin: 140px 60px 60px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26px;
+  font-style: normal;
+  font-family: 'Commissioner';
+}
+
+.greetings_part5_img {
+  width: 95%;
+  margin: 7%;
+}
+
+.greetings_part5_descriptors {
+  margin-top: 40%;
+  padding: 0 50px;
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+  font-family: 'Commissioner';
+}
+
+.greetings_part5_descriptor1, .greetings_part5_descriptor2 {
+  margin-bottom: 50px;
+  display: flex;
+  gap: 20px;
+}
+
+.descriptor1_line, .descriptor2_line {
+  width: 100px;
+  height: 1px;
+  margin-top: 15px;
+  background: #000;
 }
 
 footer {
