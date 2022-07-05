@@ -329,6 +329,147 @@ main {
   background: #000;
 }
 
+.advantages {
+  width: 100%;
+  padding: 80px 0;
+  /* display: flex; */
+  background: #393B3C;
+}
+
+.advantages_topBox {
+  display: grid;
+  grid-template-columns: 38.8% 16.2% 16.2% 16.2%;
+}
+
+.advantages_pluses {
+  padding: 80px 20px 80px 200px;
+  display: flex;
+  gap: 30px;
+  border: 1px solid rgba(242, 242, 242, 0.2);
+  border-left: 0;
+  color: white;
+  font-family: 'Commissioner';
+}
+
+.advantages_pluses_line {
+  height: 1px;
+  width: 70px;
+  margin-top: 28px;
+  background: white;
+}
+
+.advantages_pluses_title {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.advantages_pluses_suptitle {
+  width: 100%;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 45px;
+}
+
+.advantages_pluses_descriptor {
+  width: 100%;
+  font-size: 14px;
+  color: #777777;
+}
+
+.advantages_expInProjects {
+  border-top: 1px solid rgba(242, 242, 242, 0.2);
+  border-bottom: 1px solid rgba(242, 242, 242, 0.2);
+}
+
+.advantages_number {
+  height: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #51BAE5;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: 'Commissioner';
+}
+
+.advantages_descriptorBox {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border-top: 1px solid rgba(242, 242, 242, 0.2);
+}
+
+.advantages_counter, .advantages_counter_02, .advantages_counter_03, .advantages_counter_04, .advantages_counter_06, .advantages_counter_07, .advantages_counter_08 {
+  position: relative;
+  top: -5px;
+  left: 10px;
+  font-family: 'Commissioner';
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+}
+
+.advantages_counter_02 {
+  margin-bottom: 85px;
+}
+
+.advantages_counter_03 {
+  margin-bottom: 45px;
+}
+
+.advantages_counter_04 {
+  margin-bottom: 40px;
+}
+
+.advantages_counter_06, .advantages_counter_07, .advantages_counter_08 {
+  margin-bottom: 20px;
+}
+
+.advantages_description {
+  width: 70%;
+  padding-top: 20px;
+  font-size: 14px;
+  font-family: 'Commissioner';
+  font-weight: 300;
+  line-height: 22px;
+  color: white;
+}
+
+.advantages_subdescription {
+  font-size: 12px;
+  color: #777777;
+}
+
+.advantages_trainings {
+  border: 1px solid rgba(242, 242, 242, 0.2);
+  border-right: 0;
+}
+
+.advantages_ownSoft {
+  border: 1px solid rgba(242, 242, 242, 0.2);
+}
+
+.advantages_botBox {
+  width: 100%;
+  height: 390px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 12.5% 13.15% 13.1% 16.3% 16.15% 16.2%;
+}
+
+.advantages_bitrixProducts, .advantages_buisnessAutomation, .advantages_downloads {
+  border: 1px solid rgba(242, 242, 242, 0.2);
+  border-top: 0;
+}
+
+.advantages_ownSupports, .advantages_hoursInProjects {
+  border-bottom: 1px solid rgba(242, 242, 242, 0.2);
+}
+
 footer {
   padding: 30 0;
   width: 100%;
