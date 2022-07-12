@@ -550,6 +550,7 @@ main {
 
 .slider_carousel {
   width: 100%;
+  min-height: 362px;
   height: auto;
   overflow-x: scroll;
   overflow-y: hidden;
@@ -558,22 +559,21 @@ main {
   flex-direction: column;
 }
 
-/* .slider_carousel::-webkit-scrollbar {
-  height: 0;
-} */
-
 .slider_odd {
-  width: 100%;
+  width: auto;
   height: auto;
+  position: absolute;
+  top: 0;
   padding-left: 330px;
   display: flex;
   gap: 500px;
-
 }
 
 .slider_even {
-  width: 100%;
+  width: auto;
   height: auto;
+  position: absolute;
+  bottom: 0;
   display: flex;
   gap: 500px;
 }
@@ -583,6 +583,13 @@ main {
   height: 60px;
   margin-left: 59.5px;
   background: #000;
+}
+
+.slide_block {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .slide {
@@ -615,65 +622,16 @@ main {
   text-align: left;
 }
 
+.year {
+  font-size: 18px;
+}
+
+.text {
+  display: none;
+}
+
 .slide-img {
-  width: 100%;
-  height: auto;
-}
-
-.slider_slide2022 {
-
-}
-
-.slider_slide2021 {
-
-}
-
-.slider_slide2020 {
-
-}
-
-.slider_slide2019 {
-
-}
-
-.slider_slide2018 {
-
-}
-
-.slider_slide2017 {
-
-}
-
-.slider_slide2016 {
-  width: 300px;
-  height: 300px;
-  padding: 60px 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  gap: 15px;
-  position: absolute;
-  left: 1760px;
-  top: 0;
-  overflow-y: scroll;
-  background: #51BAE5;
-  color: #fff;
-}
-
-.slider_slide2015 {
-
-}
-
-.slider_slide2014 {
-
-}
-
-.slider_slide2013 {
-
-}
-
-.slider_slide2012 {
-  
+  display: none;
 }
 
 .founders {
